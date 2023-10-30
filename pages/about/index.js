@@ -137,7 +137,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2"
+            className="h2 text-2xl sm:text-4xl"
           >
             Captivating <span className=" text-accent">stories</span> birth magnificent designs.
           </motion.h2>
@@ -146,7 +146,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className=" max-w-[600px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
+            className=" max-w-[600px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 hidden sm:block"
           >
             I&apos;m a software engineer with a passion for solving complex problems and creating
             innovative solutions. With a strong background in software development and a relentless
@@ -156,6 +156,16 @@ const About = () => {
             a meaningful impact. My goal is to deliver software that not only meets your
             requirements but also exceeds your expectations. Explore my portfolio to see examples of
             my work and get in touch to discuss how I can contribute to your next project.
+          </motion.p>
+          <motion.p
+            variants={fadeIn("right", 0.4)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className=" max-w-[600px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 block sm:hidden"
+          >
+            I&apos;m a passionate software engineer with a strong background in web development and
+            system optimization. Let&apos;s collaborate on your next project.
           </motion.p>
         </div>
         {/* info */}

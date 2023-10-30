@@ -18,7 +18,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 text-4xl"
+            className="h1 text-2xl sm:text-4xl mt-7"
           >
             Full-Stack Software Engineer <br /> Turning Ideas Into{" "}
             <span className="text-accent">Digital Reality</span>

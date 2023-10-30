@@ -90,7 +90,8 @@ const Contact = () => {
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   placeholder="message"
-                  className="textarea"
+                  className="textarea sm:h-[180px]"
+                  rows="2"
                 ></textarea>
                 <button
                   type="submit"
