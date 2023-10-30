@@ -28,12 +28,22 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 hidden sm:block"
           >
             I specialize in creating digital solutions, from web applications and APIs to backend
             systems. With a passion for turning ideas into functional and user-friendly software,
             I&apos;m here to help you bring your projects to life. Let&apos;s work together to build
             something amazing.
+          </motion.p>
+          <motion.p
+            variants={fadeIn("down", 0.2)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 sm:hidden block"
+          >
+            I create digital solutions, from web applications to backend systems. With a passion for
+            functional and user-friendly software, I&apos;m here to bring projects to life.
           </motion.p>
           <motion.div
             variants={fadeIn("down", 0.3)}
