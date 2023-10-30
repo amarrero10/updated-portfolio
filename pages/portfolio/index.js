@@ -26,9 +26,9 @@ const Portfolio = () => {
               exit="hidden"
               className=" mb-4 mx-auto max-w-[400px] lg:mx-0"
             >
-              {" "}
-              blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-              blah blah blah{" "}
+              Explore my work to see how I turn ideas into reality. From web applications to system
+              optimizations, my portfolio showcases my passion for problem-solving and innovation.
+              Check it out and get in touch to discuss how we can collaborate on your next project.
             </motion.p>
           </div>
           <motion.div

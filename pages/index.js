@@ -18,9 +18,10 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1"
+            className="h1 text-4xl"
           >
-            Transforming Ideas <br /> Into <span className=" text-accent">Digital Reality</span>
+            Full-Stack Software Engineer <br /> Turning Ideas Into{" "}
+            <span className="text-accent">Digital Reality</span>
           </motion.h1>
           <motion.p
             variants={fadeIn("down", 0.2)}
@@ -29,10 +30,10 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Blah BlahBlah BlahBlah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
-            Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
-            Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
-            Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+            I specialize in creating digital solutions, from web applications and APIs to backend
+            systems. With a passion for turning ideas into functional and user-friendly software,
+            I'm here to help you bring your projects to life. Let's work together to build something
+            amazing.
           </motion.p>
           <motion.div
             variants={fadeIn("down", 0.3)}
@@ -65,7 +66,7 @@ const Home = () => {
           animate="show"
           exit="hidden"
           transition={{ duration: 1, ease: "easeInOut" }}
-          className=" w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[4%] xxl:right-[20%]"
+          className=" w-full h-full max-w-[637px] max-h-[678px] absolute -bottom-32 lg:-bottom-10 lg:right-[4%] xxl:right-[25%]"
         >
           <Avatar />
         </motion.div>
