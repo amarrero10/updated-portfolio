@@ -113,6 +113,7 @@ const aboutData = [
 // Components
 import Avatar from "../../components/Avatar";
 import Circles from "../../components/Circles";
+import Image from "next/image";
 
 const About = () => {
   const [index, setIndex] = useState(0);
@@ -125,9 +126,15 @@ const About = () => {
         initial="hidden"
         animate="show"
         exit="hidden"
-        className=" hidden xl:flex absolute bottom-0 -left-[100px] "
+        className=" hidden xl:flex absolute bottom-0 left-[800px] max-w-[400px] max-h-[400px] rounded-full xxl:left-[1400px] xxl:bottom-64"
       >
-        <Avatar className=" " />
+        <Image
+          src="/Professional-Pic.jpeg"
+          width={400}
+          height={400}
+          alt=""
+          className="rounded-full"
+        ></Image>
       </motion.div>
       <div className=" container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         {/* Text */}
