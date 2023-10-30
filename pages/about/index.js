@@ -148,14 +148,14 @@ const About = () => {
             exit="hidden"
             className=" max-w-[600px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            I'm a software engineer with a passion for solving complex problems and creating
+            I&apos;m a software engineer with a passion for solving complex problems and creating
             innovative solutions. With a strong background in software development and a relentless
-            pursuit of excellence, I've worked on a variety of projects, from building web
-            applications to optimizing system performance. Whether it's writing efficient code,
-            architecting scalable systems, or troubleshooting complex issues, I'm here to make a
-            meaningful impact. My goal is to deliver software that not only meets your requirements
-            but also exceeds your expectations. Explore my portfolio to see examples of my work and
-            get in touch to discuss how I can contribute to your next project.
+            pursuit of excellence, I&apos;ve worked on a variety of projects, from building web
+            applications to optimizing system performance. Whether it&apos;s writing efficient code,
+            architecting scalable systems, or troubleshooting complex issues, I&apos;m here to make
+            a meaningful impact. My goal is to deliver software that not only meets your
+            requirements but also exceeds your expectations. Explore my portfolio to see examples of
+            my work and get in touch to discuss how I can contribute to your next project.
           </motion.p>
         </div>
         {/* info */}

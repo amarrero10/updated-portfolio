@@ -32,8 +32,8 @@ const Home = () => {
           >
             I specialize in creating digital solutions, from web applications and APIs to backend
             systems. With a passion for turning ideas into functional and user-friendly software,
-            I'm here to help you bring your projects to life. Let's work together to build something
-            amazing.
+            I&apos;m here to help you bring your projects to life. Let&apos;s work together to build
+            something amazing.
           </motion.p>
           <motion.div
             variants={fadeIn("down", 0.3)}
