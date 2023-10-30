@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import { RiLinkedinLine, RiGithubLine } from "react-icons/ri";
 import { FaWpforms } from "react-icons/fa";
-import resumePdf from "../public/Albert-resume.pdf";
+import resumePdf from "../public/files/Albert-resume.pdf";
 
 const Socials = () => {
   return (
@@ -23,9 +23,9 @@ const Socials = () => {
       >
         <RiGithubLine />
       </Link>
-      <a href={resumePdf} download="Albert-resume.pdf">
+      <Link href={resumePdf} locale={false} target="_blank" rel="noopener noreferrer">
         <FaWpforms className="hover:text-accent transition-all duration-300" />
-      </a>
+      </Link>
     </div>
   );
 };
