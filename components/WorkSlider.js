@@ -23,14 +23,14 @@ const workSlides = {
           link: "https://budgetbuddy-othz.onrender.com/",
         },
         {
-          title: "Pledge Palooza",
+          title: "Stucco Pros of Tampa Bay",
           path: "/thumb3.png",
-          link: "https://pledgepalooza.onrender.com/",
+          link: "https://www.stuccoprostampa.com/",
         },
         {
-          title: "Cozy Nest",
+          title: "TerraGold Construction Services",
           path: "/thumb4.png",
-          link: "https://cozynest.onrender.com/",
+          link: "https://terragoldconstruction.com/",
         },
       ],
     },
